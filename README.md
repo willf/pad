@@ -5,7 +5,7 @@ pad
 
 A golang implementation of the [left-pad javascript library](https://www.npmjs.com/package/left-pad)
 
-I was inspired by [Stew's `left-cats`](https://github.com/stew/left-cats) who was inspired by [this article](http://arstechnica.com/information-technology/2016/03/rage-quit-coder-unpublished-17-lines-of-javascript-and-broke-the-internet/) to port this to Go.
+I was inspired by [Stew](https://twitter.com/StewOConnor)'s [`left-cats`](https://github.com/stew/left-cats), who was inspired by [this article](http://arstechnica.com/information-technology/2016/03/rage-quit-coder-unpublished-17-lines-of-javascript-and-broke-the-internet/), to port this to Go. 
 
 This implementation will let you pad byte-strings and UTF-8 encoded strings
 
