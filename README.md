@@ -28,3 +28,9 @@ func main() {
 	fmt.Println(padUtf8.Left("Exit now", 20, "→"))
 }
 ```
+
+```bash
+> go run example.go
+Hello!!!!!!!!!!!!!!!
+→→→→→→→→→→→→Exit now
+```
