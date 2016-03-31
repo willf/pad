@@ -1,6 +1,8 @@
 pad
 -------------
 
+[![Join the chat at https://gitter.im/willf/pad](https://badges.gitter.im/willf/pad.svg)](https://gitter.im/willf/pad?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [![Build Status](https://travis-ci.org/willf/pad.svg?branch=master)](https://travis-ci.org/willf/pad)
 
 A golang implementation of the [left-pad javascript library](https://www.npmjs.com/package/left-pad)
