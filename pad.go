@@ -5,11 +5,13 @@ Package pad provides left-padding functionality
 */
 package pad
 
-func times(str string, n int) (out string) {
-	for i := 0; i < n; i++ {
-		out += str
+import "strings"
+
+func times(str string, n int) string {
+	if n <= 0 {
+		return ""
 	}
-	return
+	return strings.Repeat(str, n)
 }
 
 // Left left-pads the string with pad up to len runes
